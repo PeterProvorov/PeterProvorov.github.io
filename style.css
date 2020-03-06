@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  border-bottom: 3px solid #ff8597;
+}
+
+div {
+    position: relative;
+    /* width: 100%; */
+    /* min-height: 8em; */
+}
+
+header {
+  background: #ec0a8e70;
+}
+
+footer {
+    height: auto;
+    background-color: #f5f5f5;
+    margin-top: 90%;
+    padding: 1%;
+}
+
+.form {
+    margin: auto;
+    /*выровнять контент по середине - это в родителе внутренние отступы и кнопки в строку сделать */
+  }
+  
+.form_input {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    padding: 8px 16px;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffc7c7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0em;
+    font-weight: 300;
+  }
+  
+  .form_input::-webkit-input-placeholder {
+    opacity: 0.4;
+    color: #000000;
+  }
+  
+  .form_input:focus {
+    background-color: #ff8597;
+  }
+
+  .email {
+    float: left;
+    height: 10%;
+  }
+  
+  .btn {
+    height: 10%;
+  }
+
+  .black {
+    color: #000;
+  }
+  
+  .white {
+    color: #fff;
+  }
+
+  .rectangle-7-1 {
+    position: absolute;
+    left: 11.81%;
+    right: 57.15%;
+    top: 30.53%;
+    bottom: 64.26%;
+    
+    background: #407BA7;
+    opacity: 0.2;
+    border-radius: 2px;
+  }
